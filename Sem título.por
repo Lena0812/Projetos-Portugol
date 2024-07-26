@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    //Declaração de váriaveis 
+    real imc,peso,altura 
+   //inicio de código 
+   escreva("Informe o seu peso: ")
+   leia(peso)
+   
+   escreva("Informe a sua altura: ")
+   leia(altura)
+
+   imc= peso/ altura
+
+   escreva("Seu imc é ", imc)
+   se(imc < 18.5) {
+    escreva ("Abaixo do peso desejado.")
+   }
+  senao se (imc <25) {
+    escreva("peso desejado")
+    
+  }
+  }
+}
