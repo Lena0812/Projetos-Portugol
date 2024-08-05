@@ -1,8 +1,8 @@
 programa {
   funcao inicio() {
-    //DeclaraÁ„o de v·riaveis 
+    //Declara√ß√£o de v√°riaveis 
     real imc,peso,altura 
-   //inicio de cÛdigo 
+   //inicio de c√≥digo 
    escreva("Informe o seu peso: ")
    leia(peso)
    
@@ -11,7 +11,7 @@ programa {
 
    imc= peso/ altura
 
-   escreva("Seu imc È ", imc)
+   escreva("Seu imc √© ", imc)
    se(imc < 18.5) {
     escreva ("Abaixo do peso desejado.")
    }
